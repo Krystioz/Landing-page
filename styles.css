@@ -1,0 +1,47 @@
+:root {
+    box-sizing: border-box;
+    font-size: calc(0.3em + 1vw);
+}
+
+*,
+::before,
+::after {
+    box-sizing: inherit;
+}
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #1f2937;
+    margin: 0;
+}
+.main-button {
+    margin: 0;
+}
+.nav-flex {
+    margin: 0;
+    display: flex;
+    list-style: none;
+    justify-content: right;
+    align-items: center;
+}
+
+.nav-flex li {
+    color: white;
+    padding: 1em;
+}
+.nav-flex a {
+    color: inherit;
+    text-decoration: none;
+}
+.nav-flex a:hover {
+    color: khaki;
+}
+.main-button-li {
+    margin-right: auto;
+    margin-left: 2em;
+}
+.right-nav {
+    margin-right: 4em;
+}
