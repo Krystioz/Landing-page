@@ -1,12 +1,14 @@
 :root {
     box-sizing: border-box;
-    font-size: calc(0.3em + 1vw);
+    font-size: calc(0.25em + 1vw);
+    list-style: none;
 }
 
 *,
 ::before,
 ::after {
     box-sizing: inherit;
+    list-style: inherit;
 }
 body {
     margin: 0;
@@ -15,12 +17,13 @@ body {
 .header-container {
     background-color: #1f2937;
     padding: 2em;
+    padding-left: 3em;
+    padding-right: 3em;
     padding-bottom: 6em;
     color: white;
 }
 header {
-    margin: 0 3em;
-   
+    margin: 0 2em;
 }
 .main-button {
     margin: 0;
@@ -30,7 +33,7 @@ header {
     margin: 0;
     padding-left: 0;
     display: flex;
-    list-style: none;
+
     justify-content: space-between;
     align-items: center;
 }
@@ -54,16 +57,104 @@ header {
     margin-right: 2em;
 }
 
-.hero-flex{
+.hero-flex {
     display: flex;
     margin-top: 6em;
+    background-color: black;
+    border-radius: 1em;
+    overflow: hidden;
 }
-.overwiew{
+.overwiew {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1em;
+}
+.overwiew h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.4em;
+}
+.overwiew a {
+    text-decoration: none;
+    padding: 0.5em 2em;
+    color: white;
+    background-color: rgb(64, 64, 228);
+    border-radius: 1em;
+    margin-top: 1em;
+}
+.overwiew p {
+    text-align: center;
+    font-size: 0.8rem;
+}
+#heroimg {
+    width: 30%;
+    object-fit: cover;
+}
+
+.tier-list-section h2 {
+    text-align: center;
+    font-size: 1.5em;
+    font-family: monospace;
+}
+.tier-list-section h3 {
+    text-align: center;
+    font-family: fantasy;
+    font-size: 1.5em;
+}
+.tier-list {
+    width: 80%;
+    margin: auto;
+}
+.tier-list-flex {
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    width: 80%;
+    margin: 1em auto;
+}
+
+.tier-list-media {
     display: flex;
     flex-direction: column;
-    margin-right: 1em;
+    text-align: center;
+    background-color: rgb(109, 109, 52);
+    border-radius: 1em;
+    overflow: hidden;
 }
-#heroimg{
-    width: 40%;
-    object-fit: cover;
+.tier-list-media h4 {
+    margin-top: 0.5em;
+    color: red;
+    margin-bottom: 0;
+    font-size: 0.9em;
+}
+.tier-list-media p {
+    padding: 0.2em;
+    margin-top: 0;
+    font-size: 0.8em;
+}
+
+.tier-list-media img {
+    width: 140%;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+    margin-top: 5em;
+}
+
+.quote-content-container{
+    text-align: left;
+    width: 60%;
+    margin: auto;
+    padding: 3em;
+}
+.quote {
+    font-size: 1.2em;
+}
+.quote-content-container .author {
+    text-align: right;
+    font-weight: bold;
 }
