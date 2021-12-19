@@ -192,11 +192,17 @@ margin: 5em;
 .text-contribute {
     margin-right: 1em;
 }
+.contribute-content  {
+    margin-top: ;
+}
+.under-call {
+    margin-top: 0;
+}
 
 .contribute-content a {
     text-decoration: none;
     color: white;
-    padding: 0.2em 1em;
+    padding: 0.2em 1.2em;
     border: solid;
     border-radius: 0.5em;
     border-width: 0.2em;
