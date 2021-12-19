@@ -63,6 +63,7 @@ header {
     background-color: black;
     border-radius: 1em;
     overflow: hidden;
+    box-shadow: 0.5em 0.5em rgb(19, 18, 18);
 }
 .overwiew {
     display: flex;
@@ -191,9 +192,6 @@ margin: 5em;
 
 .text-contribute {
     margin-right: 1em;
-}
-.contribute-content  {
-    margin-top: ;
 }
 .under-call {
     margin-top: 0;
